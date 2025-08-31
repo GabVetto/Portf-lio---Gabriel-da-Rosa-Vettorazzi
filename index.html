@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gabriel da Rosa Vettorazzi</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Barra lateral com links internos -->
+    <nav class="sidebar">
+        <ul>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#formacao">Formação</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <!-- Seção Sobre mim -->
+        <section id="sobre">
+            <div class="card-sobre">
+                <h1>Gabriel da Rosa Vettorazzi</h1>
+                <img src="images/foto-gabriel.jpg" alt="Foto de Gabriel" class="foto-sobre">
+                <p>
+                    Eu amo tecnologia e estou sempre aprendendo coisas novas, buscando evolução constante tanto na vida profissional quanto pessoal. 
+                    Meus hobbies incluem viajar, conhecer lugares novos, experimentar comidas diferentes e aproveitar momentos de lazer. 
+                    Sou uma pessoa alegre, que gosta de assistir séries e jogar video games no tempo livre. 
+                    Tenho formação técnica em Mecatrônica, com conhecimento vasto na área, e atualmente sou estudante de Engenharia de Software, 
+                    sempre em busca de crescimento e novas oportunidades.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao">
+            <h1>Formação & Idiomas</h1>
+            <div class="cards-formacao">
+                <div class="card">
+                    <h3>Técnico em Mecatrônica</h3>
+                    <p>2022 - 2024</p>
+                    <p>SENAI Ney Damasceno Ferreira</p>
+                </div>
+                <div class="card">
+                    <h3>Bacharelado em Engenharia de Software</h3>
+                    <p>2025 - 2029</p>
+                    <p>Centro Universitário UNINTER</p>
+                </div>
+                <div class="card">
+                    <h3>Inglês</h3>
+                    <p>Nível básico</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio">
+            <h1>Portfólio</h1>
+            <div class="cards-portfolio">
+                <div class="card-portfolio">
+                    <h2>Jogo do Número Secreto</h2>
+                    <a href="https://secret-number-game-ochre-nine.vercel.app/" target="_blank">
+                        <img src="images/secret-number-game.png" alt="Jogo do Número Secreto">
+                    </a>
+                    <p>Site interativo onde o usuário tenta adivinhar o número secreto. O jogador possui algumas chances de errar e receberá feedback para ajustar suas tentativas, tornando a experiência dinâmica e divertida.</p>
+                </div>
+
+                <div class="card-portfolio">
+                    <h2>Sorteador de Números</h2>
+                    <a href="https://sorteador-de-numeros-gold-pi.vercel.app/" target="_blank">
+                        <img src="images/sorteador-numeros.png" alt="Sorteador de Números">
+                    </a>
+                    <p>Site onde o usuário informa a quantidade de números que deseja sortear, assim como o número mínimo e máximo do sorteio. O sistema retorna os números sorteados de forma aleatória, oferecendo praticidade e precisão.</p>
+                </div>
+
+                <div class="card-portfolio">
+                    <h2>Curitiba</h2>
+                    <a href="https://fds-uninter-zeta.vercel.app/" target="_blank">
+                        <img src="images/fds-uninter.png" alt="Curitiba">
+                    </a>
+                    <p>Site informativo com dados e curiosidades sobre a cidade de Curitiba. Apresenta informações estruturadas de forma clara para visitantes interessados em conhecer melhor a cidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h1>Contato</h1>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem..."></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
